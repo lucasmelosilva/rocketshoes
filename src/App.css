@@ -22,6 +22,7 @@ li {
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: 700;
+  cursor: pointer;
 }
 
 li:hover {
@@ -38,4 +39,65 @@ li:hover {
   background-image: url("./assets/icon-search.svg");
   background-repeat: no-repeat;
   background-position: 5% 50%;
+}
+
+/* Aside */
+
+.content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-left: 10em;
+}
+
+aside > div {
+  width: 375px;
+}
+
+span,
+strong {
+  display: block;
+}
+
+strong {
+  font-size: 60px;
+  margin-bottom: 0.2em;
+}
+
+.text-description {
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 1.2em;
+  color: var(--text-description);
+}
+
+.text-price {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0.8em;
+}
+
+.buy-button {
+  background-color: var(--button);
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  width: 274px;
+  height: 90px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 1s;
+  text-transform: uppercase;
+}
+
+.buy-button:hover {
+  opacity: 1;
 }
