@@ -33,6 +33,17 @@ function App() {
             <button className='buy-button'>comprar</button>
           </div>
         </aside>
+
+        <main>
+          <div className='main-content'>
+            <img src="./assets/tenis-1-ampliado.png" className='main-image' />
+            <div className='content-gallery'>
+              <img src="./assets/tenis-1-galeria.png" alt="" />
+              <img src="./assets/tenis-2-galeria.png" alt="" />
+              <img src="./assets/tenis-3-galeria.png" alt="" />
+            </div>
+          </div>
+        </main>
       </div>
     </div>
   )

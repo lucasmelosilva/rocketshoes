@@ -54,7 +54,7 @@ aside {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  padding-left: 10em;
+  padding: 0 8em 0 10em;
 }
 
 aside > div {
@@ -100,4 +100,36 @@ strong {
 
 .buy-button:hover {
   opacity: 1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2em;
+  height: 100%;
+  flex-grow: 2;
+  background-color: var(--main-background);
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-image {
+  margin: auto;
+}
+
+.content-gallery {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.content-gallery img:nth-child(2) {
+  border-bottom: #ff0000 solid 0.3em;
 }
