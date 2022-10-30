@@ -13,3 +13,7 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+
+body {
+  background-color: var(--background);
+}
