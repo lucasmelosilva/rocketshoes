@@ -1,3 +1,4 @@
+import './App.css'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         </ul>
 
         <div>
-          <input type="text" name="" id="" placeholder="Pesquisar" />
+          <input type="text" className='search' placeholder="Pesquisar" />
         </div>
 
         <img src="./assets/icon-bag.svg" alt="Bag" />
