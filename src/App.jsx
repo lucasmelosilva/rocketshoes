@@ -45,6 +45,22 @@ function App() {
           </div>
         </main>
       </div>
+
+      <footer>
+        <img src="./assets/img-video.png" alt="" />
+
+        <div>
+          <span>Facebook</span>
+          <span>Instagran</span>
+          <span>Youtube</span>
+          <span>Twitter</span>
+        </div>
+
+        <button>
+          Explore mais
+          <img src="./assets/icon-arrow.svg" alt="" />
+        </button>
+      </footer>
     </div>
   )
 }

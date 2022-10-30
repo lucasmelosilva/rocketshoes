@@ -46,7 +46,8 @@ li:hover {
 .content {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
+  width: 100vw;
 }
 
 aside {
@@ -102,6 +103,8 @@ strong {
   opacity: 1;
 }
 
+/* Main */
+
 main {
   display: flex;
   flex-direction: column;
@@ -132,4 +135,40 @@ main {
 
 .content-gallery img:nth-child(2) {
   border-bottom: #ff0000 solid 0.3em;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+footer > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-self: stretch;
+}
+
+footer > div > span {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer > button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  width: 437px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
